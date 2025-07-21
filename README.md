@@ -23,7 +23,7 @@ O banco de dados representa a empresa fictícia *Classic Models*, especializada 
 As relações seguem uma modelagem relacional com chaves primárias e estrangeiras bem definidas.
 
 📊 Veja o diagrama ER:  
-![Diagrama de Relacionamento](ClassicModels-relacionamento.png)
+([ClassicModels-relacionamento.png](https://github.com/thaishagler/SQL-Solutions/blob/main/ER/ClassicModels-relacionamento.png))
 
 ---
 

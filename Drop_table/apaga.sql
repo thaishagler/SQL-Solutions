@@ -6,7 +6,3 @@ DROP TABLE IF EXISTS ProductLines;
 DROP TABLE IF EXISTS Customers;
 DROP TABLE IF EXISTS Employees;
 DROP TABLE IF EXISTS Offices;
-
-
-
-ALTER TABLE Orders NOCHECK CONSTRAINT fk_Orders_Customers;

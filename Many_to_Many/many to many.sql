@@ -48,7 +48,7 @@ WHERE EXISTS (
 	SELECT * FROM OrderDetails);
 
 
--- 4. Are there any products that appear on all orders? --- REFORÇAR
+-- 4. Are there any products that appear on all orders? --- REFORÃ‡AR
 SELECT od.productCode
 FROM orderdetails od
 JOIN orders o ON od.orderNumber = o.orderNumber
@@ -92,8 +92,8 @@ JOIN Orders o ON od.orderNumber = o.orderNumber
 WHERE DATENAME(WEEKDAY, o.orderDate) = 'Segunda-Feira'  -- 2 = Monday (depends on DATEFIRST setting)
 ORDER BY o.orderDate DESC;
 
--- OU
-SET DATEFIRST 1;  -- Segunda-feira como dia 1
+-- OR
+SET DATEFIRST 1;  -- MONDAY AS DAY 1
 SELECT
     p.productName,
     o.orderDate,
